@@ -1,0 +1,32 @@
+
+
+body {
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(168,62,255,1) 100%);
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #e7cfcf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(26, 24, 24);
+}
+
+
+button.removerCarro, button.removerCarro:hover {
+    padding: 2px;
+    z-index: initial;
+    transform: none;
+    font-size: 7px;
+    border-radius: 2px;
+}
